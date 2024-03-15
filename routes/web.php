@@ -16,3 +16,43 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
   return view('home');
 });
+
+Route::get('/', function () {
+  return view('characters');
+});
+
+Route::get('/', function () {
+  return view('comics');
+});
+
+Route::get('/', function () {
+  return view('movies');
+});
+
+Route::get('/', function () {
+  return view('tv');
+});
+
+Route::get('/', function () {
+  return view('games');
+});
+
+Route::get('/', function () {
+  return view('collectibles');
+});
+
+Route::get('/', function () {
+  return view('videos');
+});
+
+Route::get('/', function () {
+  return view('fans');
+});
+
+Route::get('/', function () {
+  return view('news');
+});
+
+Route::get('/', function () {
+  return view('shop');
+});
