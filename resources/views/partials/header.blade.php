@@ -45,6 +45,9 @@
   </div>
  </div> 
 </header>
+<section class="jumbotron">
+  <img src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" class="jumbo-img" alt="">
+</section>
 
 <style lang="scss" scoped>
   .header-container{
@@ -80,5 +83,14 @@
     align-items: center;
   }
 
-  
+  .jumbotron{
+    width: 100%;
+    height: 340px;
+  }
+
+  .jumbo-img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+  }
 </style>
