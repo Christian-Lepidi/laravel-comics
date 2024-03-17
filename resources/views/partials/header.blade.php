@@ -1,7 +1,9 @@
-<header class="container">
- <div class="row">
-  <div class="col-3"></div>
-  <div class="col-6">
+<header class="header-container">
+ 
+  <div class="logo-container">
+    <img src="{{Vite::asset('/resources/images/dc-logo.png')}}" class="logo" alt="">
+  </div>
+  <div class="link-container">
    <ul>
      <li>
       <a @class(['link','active'=> Route::currentRouteName()=='characters']) href="{{route('characters')}}">CHARACTERS</a>
@@ -35,6 +37,48 @@
      </li> 
     </ul>
   </div> 
-  <div class="col-3"></div>
+  <div class="search-bar-container">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form> 
+  </div>
  </div> 
 </header>
+
+<style lang="scss" scoped>
+  .header-container{
+    width: 100%;
+    height: 90px;
+    display: flex
+ }
+
+ .logo-container{
+      height: 90px;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .logo{
+    width: 70px;
+  }  
+
+  .link-container{
+    height: 90px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+  .search-bar-container{
+    height: 90px;
+    width: 20%; 
+    display: flex;
+    align-items: center;
+  }
+
+  
+</style>
