@@ -50,47 +50,7 @@
 </section>
 
 <style lang="scss" scoped>
-  .header-container{
-    width: 100%;
-    height: 90px;
-    display: flex
- }
-
- .logo-container{
-      height: 90px;
-      width: 20%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-    }
-
-    .logo{
-    width: 70px;
-  }  
-
-  .link-container{
-    height: 90px;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } 
   
-  .search-bar-container{
-    height: 90px;
-    width: 20%; 
-    display: flex;
-    align-items: center;
-  }
 
-  .jumbotron{
-    width: 100%;
-    height: 340px;
-  }
-
-  .jumbo-img{
-    width: 100%;
-    height: 340px;
-    object-fit: cover;
-  }
+  
 </style>
