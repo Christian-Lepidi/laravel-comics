@@ -60,6 +60,7 @@ ul {
     width: 100%;
     height: 340px;
     object-fit: cover;
+    object-position: top;
 }
 
 .main-section {
@@ -75,4 +76,67 @@ ul {
     aspect-ratio: 1;
     margin-top: 30px;
     background-color: orange;
+}
+
+.more-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.more {
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35, 99, 194);
+}
+
+.shop-section {
+    width: 100%;
+    height: 140px;
+    margin-top: 40px;
+    background-color: rgb(35, 99, 194);
+}
+
+.pre-footer {
+    width: 100%;
+    height: 340px;
+    background-image: url("/resources/images/footer-bg.jpg");
+}
+
+.pre-foot-img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+}
+
+.social {
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(19, 18, 18);
+    border: 2px solid rgb(35, 99, 194);
+}
+
+.follow-us {
+    color: rgb(35, 99, 194);
+    font-size: 20px;
 }

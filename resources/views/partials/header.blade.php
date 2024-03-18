@@ -49,8 +49,3 @@
   <img src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" class="jumbo-img" alt="">
 </section>
 
-<style lang="scss" scoped>
-  
-
-  
-</style>
