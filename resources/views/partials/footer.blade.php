@@ -8,7 +8,12 @@
 </head>
 <body>
  <section class="pre-footer">
-   <!--<img src="{{Vite::asset('/resources/images/footer-bg.jpg')}}" class="pre-foot-img" alt="">--> 
+  <div class="info-logo-box">  
+   <div class="info"></div>
+   <div class="big-logo">
+    <img src="{{Vite::asset('/resources/images/dc-logo-bg.png')}}" class="logo-dc" alt="">
+   </div>
+  </div> 
  </section>
  <section class="footer">
   <div class="social">
